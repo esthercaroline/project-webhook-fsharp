@@ -1,0 +1,17 @@
+# .NET build output
+bin/
+obj/
+
+# Local SQLite database (created at runtime)
+webhook.db
+webhook.db-*
+
+# Logs
+*.log
+
+# Python virtual environment (for the test harness)
+.venv/
+__pycache__/
+
+# OS / editor
+.DS_Store
